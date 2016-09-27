@@ -11,7 +11,7 @@ wget https://github.com/slimbook/linux-firmware/raw/master/linux-firmware_X.XXX_
 
 sudo dpkg -i linux-firmware*.deb
 
-reboot
+shutdown -r now
 
 - Fin 
 
