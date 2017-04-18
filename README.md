@@ -7,7 +7,7 @@ NOTA: Para instalar este firmware en su ordenador mire cual es la √∫ltima versi√
 
 cd /tmp
 
-wget https://github.com/slimbook/linux-firmware/raw/master/linux-firmware_1.161_all.deb
+wget https://github.com/slimbook/linux-firmware/raw/master/linux-firmware_1.164_all.deb
 
 sudo dpkg -i linux-firmware*.deb
 
