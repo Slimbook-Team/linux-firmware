@@ -1,8 +1,17 @@
 #!/bin/bash
 
-#no comments, please
+#no comments please, garbage code
+
+#opensuse
+sudo zypper install git-core
+
+#arch y antergos
 pacman -S git --noconfirm
+
+#debian y derrib
 apt-get install git -y
+
+#empezamos
 rm -rf /tmp/iwlwifi
 mkdir /tmp/iwlwifi
 cd /tmp/iwlwifi/
