@@ -2,13 +2,20 @@
 
 #no comments please, garbage code
 
-#opensuse
-zypper install git-core
-
 #arch y antergos
+echo "pacman -S git --noconfirm \n"
 pacman -S git --noconfirm
 
+#fedora
+echo "dnf -y install git \n"
+dnf -y install git
+
+#opensuse
+echo "zypper --non-interative install git-core \n"
+zypper --non-interative install git-core
+
 #debian y derrib
+echo "apt-get install git -y \n"
 apt-get install git -y
 
 #empezamos
