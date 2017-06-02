@@ -2,7 +2,7 @@
 Firmware oficial kernel.org no disponible en algunas distros (ficheros wifi, red, bt, etc)
 
 
-Puedes usar el script para dummies:
+- Puedes usar el script para dummies:
 
 cd /tmp
 
@@ -12,7 +12,7 @@ sudo sh ./install-for-dummies.sh
 
 shutdown -r now
 
-O mirar cual es la última versión y remplazar en los siguientes comandos las X por el nombre correcto del fichero:
+- O mirar cual es la última versión y remplazar en los siguientes comandos las X por el nombre correcto del fichero:
 
 cd /tmp
 
