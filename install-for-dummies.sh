@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #no comments, please
-
+pacman -S git --noconfirm
 apt-get install git -y
 rm -rf /tmp/iwlwifi
 mkdir /tmp/iwlwifi
@@ -36,4 +36,4 @@ dpkg --configure -a
 
 echo "Fin derivados DEB.\n"
 
-echo "Gracias por confiar en el Slimbook Team."
+echo "Gracias por confiar en el Slimbook Team.\n"
