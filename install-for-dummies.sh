@@ -3,7 +3,7 @@
 #no comments please, garbage code
 
 #opensuse
-sudo zypper install git-core
+zypper install git-core
 
 #arch y antergos
 pacman -S git --noconfirm
@@ -19,7 +19,7 @@ echo "Descargando datos del firmware..."
 git clone https://github.com/slimbook/iwlwifi
 cd /tmp/iwlwifi/iwlwifi/
 echo "Ficheros descargados."
-sudo cp iwlwifi-*.ucode /lib/firmware/
+cp iwlwifi-*.ucode /lib/firmware/
 
 echo "Firmware manualmente actualizado.\n"
 
