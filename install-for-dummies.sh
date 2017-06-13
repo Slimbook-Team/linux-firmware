@@ -32,6 +32,8 @@ echo "Firmware manualmente actualizado.\n"
 
 echo "Ahora si derivados DEB.\n"
 
+cd /tmp/
+
 wget http://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.149_all.deb
 dpkg -i /tmp/linux-firmware_1.149_all.deb
 
