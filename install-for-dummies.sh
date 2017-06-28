@@ -49,6 +49,12 @@ dpkg -i /tmp/linux-firmware_1.164_all.deb
 wget http://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.165_all.deb
 dpkg -i /tmp/linux-firmware_1.165_all.deb
 
+wget http://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.166_all.deb
+dpkg -i /tmp/linux-firmware_1.166_all.deb
+
+wget http://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.167_all.deb
+dpkg -i /tmp/linux-firmware_1.167_all.deb
+
 dpkg --configure -a
 
 
