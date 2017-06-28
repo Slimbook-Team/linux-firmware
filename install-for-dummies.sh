@@ -26,7 +26,10 @@ echo "Descargando datos del firmware..."
 git clone https://github.com/slimbook/iwlwifi
 cd /tmp/iwlwifi/iwlwifi/
 echo "Ficheros descargados."
+#copiando para wifi
 cp iwlwifi-*.ucode /lib/firmware/
+#copiando para bluetooth
+cp intel/* /lib/firmware/intel/
 
 echo "Firmware manualmente actualizado.\n"
 
