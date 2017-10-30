@@ -16,7 +16,7 @@ shutdown -r now
 
 cd /tmp
 
-wget https://github.com/slimbook/linux-firmware/raw/master/linux-firmware_1.164_all.deb
+wget https://github.com/slimbook/linux-firmware/raw/master/linux-firmware_1.169_all.deb 
 
 sudo dpkg -i linux-firmware*.deb
 
@@ -25,4 +25,4 @@ shutdown -r now
 - Fin 
 
 
-Más datos en: http://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/
+Más datos en: https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/
