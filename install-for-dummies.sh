@@ -47,10 +47,10 @@ wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware
 dpkg -i /tmp/linux-firmware_1.161_all.deb
 
 wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.164_all.deb
-dpkg -i /tmp/linux-firmware_1.166_all.deb
+dpkg -i /tmp/linux-firmware_1.164_all.deb
 
 wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.169_all.deb
-dpkg -i /tmp/linux-firmware_1.167_all.deb
+dpkg -i /tmp/linux-firmware_1.169_all.deb
 
 wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.170_all.deb
 dpkg -i /tmp/linux-firmware_1.170_all.deb
