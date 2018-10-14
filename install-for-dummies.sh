@@ -14,7 +14,7 @@ dnf -y install git
 echo "zypper --non-interative install git-core \n"
 zypper --non-interative install git-core
 
-#debian y derrib
+#debian y derib
 echo "apt-get install git -y \n"
 apt-get install git -y
 
