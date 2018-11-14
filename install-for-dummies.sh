@@ -37,14 +37,17 @@ echo "Ahora si derivados DEB.\n"
 
 cd /tmp/
 
-wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.157.20_all.deb
-dpkg -i /tmp/linux-firmware_1.157.20_all.deb
+wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.157.21_all.deb
+dpkg -i /tmp/linux-firmware_1.157.21_all.deb
 
 wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.169.4_all.deb
 dpkg -i /tmp/linux-firmware_1.169.4_all.deb
 
 wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.175_all.deb
 dpkg -i /tmp/linux-firmware_1.175_all.deb
+
+wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.176_all.deb
+dpkg -i /tmp/linux-firmware_1.176_all.deb
 
 dpkg --configure -a
 
