@@ -45,9 +45,9 @@ dpkg -i /tmp/linux-firmware_1.157.21_all.deb
 wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.169.4_all.deb
 dpkg -i /tmp/linux-firmware_1.169.4_all.deb
 
-#09112018
-wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.173.2_all.deb
-dpkg -i /tmp/linux-firmware_1.173.2_all.deb
+#16122018
+wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.173.3_all.deb
+dpkg -i /tmp/linux-firmware_1.173.3_all.deb
 
 #09112018
 wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.175.1_all.deb
