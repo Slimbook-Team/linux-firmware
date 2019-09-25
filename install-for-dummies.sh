@@ -37,25 +37,23 @@ echo "Ahora si derivados DEB.\n"
 
 cd /tmp/
 
-#09112018
 wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.157.21_all.deb
 dpkg -i /tmp/linux-firmware_1.157.21_all.deb
 
-#30042018
-wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.169.4_all.deb
-dpkg -i /tmp/linux-firmware_1.169.4_all.deb
+wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.157.22_all.deb
+dpkg -i /tmp/linux-firmware_1.157.22_all.deb
 
-#16122018
-wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.173.3_all.deb
-dpkg -i /tmp/linux-firmware_1.173.3_all.deb
+wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.173.9_all.deb
+dpkg -i /tmp/linux-firmware_1.173.9_all.deb
 
-#09112018
-wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.175.1_all.deb
-dpkg -i /tmp/linux-firmware_1.175.1_all.deb
+wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.175.6_all.deb
+dpkg -i /tmp/linux-firmware_1.175.6_all.deb
 
-#09112018
-wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.176_all.deb
-dpkg -i /tmp/linux-firmware_1.176_all.deb
+wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.178_all.deb
+dpkg -i /tmp/linux-firmware_1.178_all.deb 
+
+wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.182_all.deb
+dpkg -i /tmp/linux-firmware_1.182_all.deb
 
 dpkg --configure -a
 
