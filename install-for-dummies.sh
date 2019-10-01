@@ -35,6 +35,8 @@ echo "Firmware manualmente actualizado.\n"
 
 echo "Ahora si derivados DEB.\n"
 
+sudo apt install linux-oem-osp1 -y
+
 cd /tmp/
 
 wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.157.21_all.deb
