@@ -54,8 +54,8 @@ dpkg -i /tmp/linux-firmware_1.175.6_all.deb
 wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.178_all.deb
 dpkg -i /tmp/linux-firmware_1.178_all.deb 
 
-wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.182_all.deb
-dpkg -i /tmp/linux-firmware_1.182_all.deb
+wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.183_all.deb
+dpkg -i /tmp/linux-firmware_1.183_all.deb
 
 dpkg --configure -a
 
