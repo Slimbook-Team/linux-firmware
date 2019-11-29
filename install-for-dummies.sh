@@ -39,23 +39,21 @@ sudo apt install linux-oem-osp1 -y
 
 cd /tmp/
 
-wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.157.21_all.deb
-dpkg -i /tmp/linux-firmware_1.157.21_all.deb
+wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.127.24_all.deb  
 
 wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.157.22_all.deb
-dpkg -i /tmp/linux-firmware_1.157.22_all.deb
+
+wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.178.6_all.deb
 
 wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.173.9_all.deb
-dpkg -i /tmp/linux-firmware_1.173.9_all.deb
 
 wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.175.6_all.deb
-dpkg -i /tmp/linux-firmware_1.175.6_all.deb
 
-wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.178_all.deb
-dpkg -i /tmp/linux-firmware_1.178_all.deb 
+wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.178.6_all.deb
 
-wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.183_all.deb
-dpkg -i /tmp/linux-firmware_1.183_all.deb
+wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.183.2_all.deb
+
+dpkg -i /tmp/linux-firmware_*.deb
 
 dpkg --configure -a
 
