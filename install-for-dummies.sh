@@ -40,30 +40,28 @@ sudo apt install linux-oem-osp1 -y
 cd /tmp/
 
 wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.127.24_all.deb  
-dpkg -i /tmp/linux-firmware_*.deb
-rm -f /tmp/linux-firmware_*.deb
+dpkg -i linux-firmware_1.127.24_all.deb
 
 wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.157.22_all.deb
-dpkg -i /tmp/linux-firmware_*.deb
-rm -f /tmp/linux-firmware_*.deb
+dpkg -i linux-firmware_1.157.22_all.deb
 
-wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.173.12_all.deb
-dpkg -i /tmp/linux-firmware_*.deb
-rm -f /tmp/linux-firmware_*.deb
+wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.173.14_all.deb
+dpkg -i linux-firmware_1.173.14_all.deb
 
 wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.175.6_all.deb
-dpkg -i /tmp/linux-firmware_*.deb
-rm -f /tmp/linux-firmware_*.deb
+dpkg -i linux-firmware_1.175.6_all.deb
 
-wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.178.6_all.deb
-dpkg -i /tmp/linux-firmware_*.deb
-rm -f /tmp/linux-firmware_*.deb
+wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.178.7_all.deb
+dpkg -i linux-firmware_1.178.7_all.deb
 
-wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.183.2_all.deb
-dpkg -i /tmp/linux-firmware_*.deb
-rm -f /tmp/linux-firmware_*.deb
+wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.183.3_all.deb
+dpkg -i linux-firmware_1.183.3_all.deb
+
+wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.184_all.deb
+dpkg -i linux-firmware_1.184_all.deb
 
 dpkg --configure -a
+apt -f install
 
 
 echo "Fin derivados DEB.\n"
