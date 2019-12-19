@@ -39,8 +39,8 @@ sudo apt install linux-oem-osp1 -y
 
 cd /tmp/
 
-wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.127.24_all.deb  
-dpkg -i linux-firmware_1.127.24_all.deb
+#wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.127.24_all.deb  
+#dpkg -i linux-firmware_1.127.24_all.deb
 
 wget https://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.157.22_all.deb
 dpkg -i linux-firmware_1.157.22_all.deb
