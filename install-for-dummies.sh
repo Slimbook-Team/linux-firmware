@@ -35,7 +35,9 @@ echo "Firmware manualmente actualizado.\n"
 
 echo "Ahora si derivados DEB.\n"
 
-sudo apt install linux-oem-osp1 -y
+#################################
+#sudo apt install linux-oem-osp1 -y
+#################################
 
 cd /tmp/
 
