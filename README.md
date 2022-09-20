@@ -4,6 +4,7 @@ Firmware oficial kernel.org no disponible en algunas distros (ficheros wifi, red
 
 - Puedes usar el script para dummies:
 
+```
 cd /tmp
 
 wget https://raw.githubusercontent.com/slimbook/linux-firmware/master/install-for-dummies.sh
@@ -11,9 +12,11 @@ wget https://raw.githubusercontent.com/slimbook/linux-firmware/master/install-fo
 sudo sh ./install-for-dummies.sh
 
 shutdown -r now
+```
 
 - O mirar cual es la última versión y remplazar en los siguientes comandos las X por el nombre correcto del fichero:
 
+```
 cd /tmp
 
 wget https://github.com/slimbook/linux-firmware/raw/master/linux-firmware_1.169_all.deb 
@@ -21,6 +24,7 @@ wget https://github.com/slimbook/linux-firmware/raw/master/linux-firmware_1.169_
 sudo dpkg -i linux-firmware*.deb
 
 shutdown -r now
+```
 
 - Fin 
 
